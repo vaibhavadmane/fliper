@@ -15,7 +15,7 @@ import {
 import svg1 from './assets/assest/Next Invest - Landing Page (images)/1.svg'
 import svg2 from  './assets/assest/Next Invest - Landing Page (images)/2.svg'
 import svg3 from  './assets/assest/Next Invest - Landing Page (images)/3.svg'
-// import svg4 from  './assest/Next Invest - Landing Page (images)/4.svg'
+// import svg4 from  '.assets/assest/Next Invest - Landing Page (images)/4.svg'
 import svg5 from  './assets/assest/Next Invest - Landing Page (images)/5.svg'
 // import svg6 from  './assest/Next Invest - Landing Page (images)/6.svg'
 // import svg7 from  './assest/Next Invest - Landing Page (images)/7.svg'
@@ -31,7 +31,7 @@ import svg16 from './assets/assest/Next Invest - Landing Page (images)/16.svg'
 import logo1 from './assets/assest/Next Invest - Landing Page (Icons)/001-facebook.svg'
 import logo2 from './assets/assest/Next Invest - Landing Page (Icons)/003-twitter.svg'
 import logo3 from './assets/assest/Next Invest - Landing Page (Icons)/004-instagram.svg'
-import logo4 from './assets/assest/Next Invest - Landing Page (Icons)/caretDown.svg'
+import logo4 from './assets/assest/Next Invest - Landing Page (Icons)/CaretDown.svg';
 import Shape from './assets/assest/Next Invest - Landing Page (images)/Shape.svg'
 import progress from './assets/assest/Next Invest - Landing Page (images)/Subtract.svg'
 
