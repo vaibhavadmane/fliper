@@ -97,7 +97,7 @@ export default function Header() {
               to="/"
               className={({ isActive }) =>
                 `py-2 px-3 transition-colors duration-200 ${
-                  isActive ? "text-black border-b-2 border-green-700" : "hover:text-gray-900"
+                  isActive ? "text-black border-b-2 border-pink-300" : "hover:text-gray-900"
                 }`
               }
             >
@@ -109,7 +109,7 @@ export default function Header() {
               // to="/works"
               className={({ isActive }) =>
                 `py-2 px-3 transition-colors duration-200 ${
-                  isActive ? "text-black border-b-2 border-green-700" : "hover:text-gray-900"
+                  isActive ? "text-black border-b-2 border-pink-300" : "hover:text-gray-900"
                 }`
               }
             >
@@ -121,7 +121,7 @@ export default function Header() {
               // to="/about"
               className={({ isActive }) =>
                 `py-2 px-3 transition-colors duration-200 ${
-                  isActive ? "text-black border-b-2 border-green-700" : "hover:text-gray-900"
+                  isActive ? "text-black border-b-2 border-pink-300" : "hover:text-gray-900"
                 }`
               }
             >

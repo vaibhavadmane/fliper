@@ -127,11 +127,11 @@ return (
   return(
   
 <div id='card' className=' w-[22%] ml-12 mt-10 mb-10 bg-white hover:shadow-xl  hover:border-4 hover:border-gray-600 hover:border-solid pb-4 '>
-  <div id='img' className='bg-cover h-[32vh]  hover:hidden bg-slate-500'>
+  <div id='img' className='bg-cover h-[32vh]  hover:hidden '>
   <img src={card.card_image} alt="" className="ml-8 content-box h-[100%] " />
     <div className='flex '>
-      <div id='home' className=' bg-slate-400 p-2 pt-1 pb-1 text-md mt-4 ml-4 relative bottom-52'>home</div>
-      <div id='family' className='bg-slate-400 p-2 pt-1 pb-1 text-md mt-4 ml-4  relative bottom-52'>{card.tag}</div>
+      <div id='home' className='  p-2 pt-1 pb-1 text-md mt-4 ml-4 relative bottom-52'>home</div>
+      <div id='family' className=' p-2 pt-1 pb-1 text-md mt-4 ml-4  relative bottom-52'>{card.tag}</div>
     </div>
  
   </div>

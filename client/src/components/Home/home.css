@@ -1,0 +1,100 @@
+#card:hover{
+    transform:rotateY(180deg);
+    background-size: cover;
+ }
+ #card:hover>#img{
+     display: none;
+ }
+ #card:hover>#flip{
+     display: flex;
+     transform: rotateY(180deg);
+ }
+ #card{
+     transition: all 1s;
+ }
+ #card:hover>#title{
+     transform:rotateY(180deg);  
+ 
+ }
+ #flip{
+     display: none;
+     
+ }
+
+
+
+ /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#1stpage, #2ndpage, #3rdpage, #4thpage {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+button.btn-primary {
+    padding: 10px 20px;
+    background-color: #38A169;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+    background-color: #276749;
+}
+
+.card-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.card-container:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.card-container img {
+    width: 100%;
+    height: auto;
+}
+
+.card-container .progress-bar progress {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    #1stpage img {
+        max-width: 600px;
+    }
+
+    .card-container {
+        width: 22%;
+        margin: 20px;
+    }
+
+    button.btn-primary {
+        padding: 15px 30px;
+    }
+}
+
+/* Footer Styling */
+#5thpage {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f1f1f1;
+}
+
+#5thpage div, #5thpage ul {
+    width: 20%;
+}
