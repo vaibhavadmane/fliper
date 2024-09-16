@@ -15,8 +15,8 @@ function ViewSubscribe() {
 
 
   return (
-    <div>
-            <h2 className='text-4xl mb-3 text-center font-bold'>Newsletter Subscribers List</h2>
+    <div className='bg-gray-700 h-[100vh]'>
+            <h4 className='text-4xl mb-3 text-center font-bold'>here is all subscribe</h4>
             <ul>
                 {subscribers.map((subscriber) => (
                     <li className='text-xl ml-2 font-semibold mb-3' key={subscriber._id}>{subscriber.email}</li>
